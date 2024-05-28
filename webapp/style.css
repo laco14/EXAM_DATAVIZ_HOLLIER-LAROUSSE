@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('INFINI-transformed.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-shadow: none;
+}
+
+.app-bar {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+}
+
+h2 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+#counter {
+    font-size: 3em;
+    margin: 20px 0;
+    color: black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    color: white;
+}
+
+.btn-decrease {
+    background-color: #f44336;
+}
+
+.btn-reset {
+    background-color: #333;
+}
+
+.btn-increase {
+    background-color: #4caf50;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: scale(1);
+}
